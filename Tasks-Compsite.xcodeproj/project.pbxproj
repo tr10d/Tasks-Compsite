@@ -15,6 +15,8 @@
 		85A8FB1B265E13020037A7DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85A8FB19265E13020037A7DE /* LaunchScreen.storyboard */; };
 		85A8FB23265E19360037A7DE /* Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A8FB22265E19360037A7DE /* Component.swift */; };
 		85A8FB25265E194F0037A7DE /* ViewControllerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A8FB24265E194F0037A7DE /* ViewControllerModel.swift */; };
+		85BF435C265E6B3D009F6B9D /* SubTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BF435B265E6B3D009F6B9D /* SubTask.swift */; };
+		85BF435F265E6B68009F6B9D /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BF435E265E6B68009F6B9D /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		85A8FB1C265E13020037A7DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		85A8FB22265E19360037A7DE /* Component.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Component.swift; sourceTree = "<group>"; };
 		85A8FB24265E194F0037A7DE /* ViewControllerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerModel.swift; sourceTree = "<group>"; };
+		85BF435B265E6B3D009F6B9D /* SubTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubTask.swift; sourceTree = "<group>"; };
+		85BF435E265E6B68009F6B9D /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,17 +64,43 @@
 		85A8FB0D265E13010037A7DE /* Tasks-Compsite */ = {
 			isa = PBXGroup;
 			children = (
+				85A8FB17265E13020037A7DE /* Assets.xcassets */,
+				85BF4358265E6AFE009F6B9D /* View */,
+				85BF4359265E6B16009F6B9D /* ViewModel */,
+				85BF435A265E6B24009F6B9D /* Model */,
 				85A8FB0E265E13010037A7DE /* AppDelegate.swift */,
 				85A8FB10265E13010037A7DE /* SceneDelegate.swift */,
-				85A8FB12265E13010037A7DE /* ViewController.swift */,
 				85A8FB14265E13010037A7DE /* Main.storyboard */,
-				85A8FB17265E13020037A7DE /* Assets.xcassets */,
 				85A8FB19265E13020037A7DE /* LaunchScreen.storyboard */,
 				85A8FB1C265E13020037A7DE /* Info.plist */,
-				85A8FB22265E19360037A7DE /* Component.swift */,
-				85A8FB24265E194F0037A7DE /* ViewControllerModel.swift */,
 			);
 			path = "Tasks-Compsite";
+			sourceTree = "<group>";
+		};
+		85BF4358265E6AFE009F6B9D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				85A8FB12265E13010037A7DE /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		85BF4359265E6B16009F6B9D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				85A8FB24265E194F0037A7DE /* ViewControllerModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		85BF435A265E6B24009F6B9D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				85A8FB22265E19360037A7DE /* Component.swift */,
+				85BF435B265E6B3D009F6B9D /* SubTask.swift */,
+				85BF435E265E6B68009F6B9D /* Task.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,7 +176,9 @@
 				85A8FB13265E13010037A7DE /* ViewController.swift in Sources */,
 				85A8FB23265E19360037A7DE /* Component.swift in Sources */,
 				85A8FB0F265E13010037A7DE /* AppDelegate.swift in Sources */,
+				85BF435C265E6B3D009F6B9D /* SubTask.swift in Sources */,
 				85A8FB25265E194F0037A7DE /* ViewControllerModel.swift in Sources */,
+				85BF435F265E6B68009F6B9D /* Task.swift in Sources */,
 				85A8FB11265E13010037A7DE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
